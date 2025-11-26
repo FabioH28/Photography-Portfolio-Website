@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Through my Lens </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+
+    <header class="header">
+
+
+
+        <nav class="nav nav-transparent">
+
+
+            <div class="nav__image">
+                <a href="index.html"><img src="Photos/logo.png" alt="logo"></a>
+            </div>
+
+
+            <div class="nav__toggle" id="navToggle">
+          &#9776; <!-- Unicode for hamburger (☰) -->
+</div>
+
+
+            <div class="nav__links" id="navLinks">
+
+
+                <a href="index.html">Home</a>
+                <a href="gallery.html">Gallery </a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+
+        </nav>
+
+
+        <div class="header__content">
+
+
+            <h1>Through My Lens <br> <span class="header__content--highlight">Earth Edition</span> </h1>
+            <p>A visual journey through light, emotion, and perspective.</p>
+            <a href="gallery.html" class="gallery">Explore Gallery</a>
+        </div>
+
+
+
+    </header>
+    
+
+
+
+
+
+    
+
+    <!-- About Section -->
+
+
+    <section class="about">
+
+        <div class="about__container">
+
+
+
+
+            <div class="about__image">
+                <img src="Photos/1.jpg" alt="turtle">
+            </div>
+
+
+            <div class="about__content">
+
+                <h1 class="about__title">About the Project</h1>
+                
+
+                <div class="underline"></div>
+
+
+                <p class="about__description">This project is a collection of photographs that capture the essence
+                    of our planet. Each image tells a story, inviting viewers to see the world through a diffrent lens.
+                
+                Join me on this journey to explore the beauty and diversity of Earth. </div>
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Gallery Preview Section -->
+
+
+
+
+    <section class="features">
+
+
+        <div class="features__container">
+            <div class="features__content">
+
+
+                <h1 class="features__title">Featured Gallery</h1>
+
+                <p class="features__description">A glimpse into the stunning landscapes and natural wonders captured through my lens.</p>
+            </div>
+
+
+
+            <div class="features__images">
+
+
+
+                <img src="Photos/5.jpg" alt="gallery image" class="features__image">
+
+                <img src="Photos/2.jpg" alt="gallery image" class="features__image">
+
+                <img src="Photos/7.jpg" alt="gallery image" class="features__image">
+                
+
+            </div>
+        </div>
+
+
+
+        <a href="gallery.html" class="features__button">View the whole gallery</a>
+    </section>
+   
+
+
+
+
+    <footer class="footer">
+
+        <p>&copy; 2025 Through My Lens: Earth Edition. All rights reserved.</p>
+    </footer>
+
+
+
+    
+
+
+    <script>
+  const toggle = document.getElementById('navToggle');
+  const links = document.getElementById('navLinks');
+
+  toggle.addEventListener('click', () => {
+    links.classList.toggle('active');
+
+    if (links.classList.contains('active')) {
+      toggle.innerHTML = '&times;'; // X close icon
+    } else {
+      toggle.innerHTML = '&#9776;'; // hamburger icon
+    }
+  });
+</script>
+
+
+
+
+
+
+
+</body>
+</html>

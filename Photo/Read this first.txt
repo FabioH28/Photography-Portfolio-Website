@@ -1,0 +1,3 @@
+Simple photography website displaying beautiful spots around the world
+Just HTML and CSS to showcase design skills.
+Photos are taken from Pexels, they aren’t included here, but you can see the live site with images on Netlify: https://euphonious-sable-341b6c.netlify.app/

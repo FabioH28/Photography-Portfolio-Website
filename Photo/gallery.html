@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+      body{
+        background-color: rgb(234, 252, 255);
+      }
+    </style>
+</head>
+<body>
+
+
+         <nav class="nav nav__gallery">
+
+
+            <div class="nav__image">
+                 <a href="index.html"><img src="Photos/logo.png" alt="logo"></a>
+            </div>
+
+
+            <div class="nav__toggle menu__color" id="navToggle">
+          &#9776; <!-- Unicode for hamburger -->
+</div>
+
+
+            <div class="nav__links" id="navLinks">
+
+
+                <a href="index.html">Home</a>
+                <a href="gallery.html">Gallery </a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+
+        </nav>
+
+
+
+        <section class="gallery__full">
+            <section class="galleryfull__container">
+
+
+
+                <div class="galleryfull__content">
+
+
+                    <h1>Earth's Beauty Through My Lens</h1>
+
+                    <p>Explore a collection of stunning photographs capturing the diverse landscapes and natural wonders of our planet.</p>
+                </div>
+
+
+
+
+
+                
+
+                <div class="gallery__photos">
+
+                  <div class="photo-box">
+                <img src="Photos/New York, United States.jpg" alt="" class="gallery__photo">
+                <div class="overlay-text">📍 New York, United States</div>
+                </div>
+
+                <div class="photo-box">
+                <img src="Photos/Nusa Penida, Klungkung Regency, Bali, Indonesia.jpg" alt="" class="gallery__photo">
+                <div class="overlay-text">📍 Nusa Penida, Klungkung Regency, Bali</div>
+                </div>
+
+                <div class="photo-box">
+                    <img src="Photos/Paradise Island Resort & Spa, Maldives.jpg" alt="" class="gallery__photo">
+                    <div class="overlay-text">📍 Paradise Island Resort & Spa, Maldives</div>
+                </div>
+
+                <div class="photo-box">
+                     <img src="Photos/Paris France.jpg" alt="" class="gallery__photo">
+                     <div class="overlay-text">📍 Paris, France</div>
+                </div>
+
+
+                <div class="photo-box">
+                    <img src="Photos/pedro-bariak-lVRolxDY5q0-unsplash.jpg" alt="" class="gallery__photo">
+                     <div class="overlay-text">📍Maldives </div>
+                </div>
+
+                <div class="photo-box">
+                     <img src="Photos/Statue of Liberty National Monument, New York, United States.jpg" alt="" class="gallery__photo">
+                      <div class="overlay-text"> 📍New York, United States</div>
+                </div>
+                <div class="photo-box">
+                     <img src="Photos/tahiti.jpg" alt="" class="gallery__photo">
+                     <div class="overlay-text">📍 Tahiti</div>
+                </div>
+                <div class="photo-box">
+                     <img src="Photos/The Shard, London, United Kingdom.jpg" alt="" class="gallery__photo">
+                     <div class="overlay-text">📍 London, United Kingdom</div>
+                </div>
+                <div class="photo-box">
+                     <img src="Photos/Tokyo, Japan.jpg" alt="" class="gallery__photo">
+                     <div class="overlay-text">📍 Tokyo, Japan</div>
+                </div>
+                <div class="photo-box">
+                     <img src="Photos/Kabira Bay in Ishigaki Island (Okinawa), Japan..jpg" alt="" class="gallery__photo">
+                     <div class="overlay-text">📍 Kabira Bay, Ishigaki Island, Japan</div>
+                </div>
+                <div class="photo-box">
+                     <img src="Photos/Baa Atoll, Maldives.jpg" alt="" class="gallery__photo">
+                     <div class="overlay-text">📍 Baa Atoll, Maldives</div>
+                </div>
+                <div class="photo-box">
+                     <img src="Photos/Kokusai-dori, 2 Chome-8 Makishi, Naha, Préfecture d'Okinawa, Japon.jpg" alt="" class="gallery__photo">
+                     <div class="overlay-text">📍 Okinawa, Japan</div>
+                </div>
+                <div class="photo-box">
+                     <img src="Photos/Metropolitan City of Venice, Italy.jpg" alt="" class="gallery__photo">
+                     <div class="overlay-text">📍 Venice, Italy</div>
+                </div>
+                
+
+  
+</div>
+<a href="contact.html" class="contact__cta">Contact</a>
+
+
+
+            </section>
+      
+
+
+
+
+
+        
+
+       
+
+    <footer class="footer">
+
+        <p>&copy; 2025 Through My Lens: Earth Edition. All rights reserved.</p>
+    </footer>
+
+   
+
+
+
+
+    <script>
+  const toggle = document.getElementById('navToggle');
+  const links = document.getElementById('navLinks');
+
+  toggle.addEventListener('click', () => {
+    links.classList.toggle('active');
+
+    if (links.classList.contains('active')) {
+      toggle.innerHTML = '&times;'; // X close icon
+    } else {
+      toggle.innerHTML = '&#9776;'; // hamburger icon
+    }
+  });
+</script>
+    
+</body>
+</html>
